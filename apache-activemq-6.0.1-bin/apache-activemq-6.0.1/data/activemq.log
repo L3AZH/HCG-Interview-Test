@@ -1,0 +1,44 @@
+2024-01-07 14:35:21,960 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\ADMIN\OneDrive\Desktop\BookingSystem\apache-activemq-6.0.1-bin\apache-activemq-6.0.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-01-07 14:35:21,968 | INFO  | Starting Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\ADMIN\OneDrive\Desktop\BookingSystem\apache-activemq-6.0.1-bin\apache-activemq-6.0.1\bin\win64\..\..\data\kahadb] | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-01-07 14:35:21,998 | INFO  | Starting KahaDBStore | org.apache.activemq.store.kahadb.KahaDBStore | WrapperSimpleAppMain
+2024-01-07 14:35:21,999 | INFO  | Opening MessageDatabase | org.apache.activemq.store.kahadb.MessageDatabase | WrapperSimpleAppMain
+2024-01-07 14:35:22,229 | INFO  | Starting Temp Data Store | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-01-07 14:35:22,230 | INFO  | PListStore:[C:\Users\ADMIN\OneDrive\Desktop\BookingSystem\apache-activemq-6.0.1-bin\apache-activemq-6.0.1\bin\win64\..\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | WrapperSimpleAppMain
+2024-01-07 14:35:22,230 | INFO  | Starting Job Scheduler Store | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-01-07 14:35:22,230 | INFO  | Persistence Adapter successfully started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-01-07 14:35:22,377 | INFO  | Apache ActiveMQ 6.0.1 (localhost, ID:anhlht-53276-1704612922242-0:1) is starting | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-01-07 14:35:22,394 | INFO  | Listening for connections at: tcp://anhlht:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-01-07 14:35:22,394 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-01-07 14:35:22,397 | INFO  | Listening for connections at: amqp://anhlht:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-01-07 14:35:22,398 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-01-07 14:35:22,401 | INFO  | Listening for connections at: stomp://anhlht:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-01-07 14:35:22,402 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-01-07 14:35:22,405 | INFO  | Listening for connections at: mqtt://anhlht:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | WrapperSimpleAppMain
+2024-01-07 14:35:22,405 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-01-07 14:35:22,408 | INFO  | Starting Jetty server | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2024-01-07 14:35:22,449 | INFO  | Creating Jetty connector | org.apache.activemq.transport.WebTransportServerSupport | WrapperSimpleAppMain
+2024-01-07 14:35:22,604 | WARN  | ServletContext@o.e.j.s.ServletContextHandler@39d5ae55{/,null,STARTING} has uncovered HTTP methods for the following paths: [/] | org.eclipse.jetty.security.SecurityHandler | WrapperSimpleAppMain
+2024-01-07 14:35:22,686 | INFO  | Listening for connections at ws://anhlht:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | WrapperSimpleAppMain
+2024-01-07 14:35:22,686 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | WrapperSimpleAppMain
+2024-01-07 14:35:22,686 | INFO  | Apache ActiveMQ 6.0.1 (localhost, ID:anhlht-53276-1704612922242-0:1) started | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-01-07 14:35:22,686 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | WrapperSimpleAppMain
+2024-01-07 14:35:23,432 | INFO  | ActiveMQ WebConsole available at http://127.0.0.1:8161/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2024-01-07 14:35:23,432 | INFO  | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/ | org.apache.activemq.web.WebConsoleStarter | WrapperSimpleAppMain
+2024-01-07 15:17:23,386 | INFO  | Connector vm://localhost started | org.apache.activemq.broker.TransportConnector | qtp971911442-60
+2024-01-07 15:23:18,912 | INFO  | Apache ActiveMQ 6.0.1 (localhost, ID:anhlht-53276-1704612922242-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2024-01-07 15:23:18,914 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2024-01-07 15:23:18,914 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2024-01-07 15:23:18,914 | INFO  | Could not accept connection during shutdown  : null (null) | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: tcp://0.0.0.0:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2024-01-07 15:23:18,914 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2024-01-07 15:23:18,914 | INFO  | socketQueue interrupted - stopping | org.apache.activemq.transport.tcp.TcpTransportServer | ActiveMQ Transport Server Thread Handler: amqp://0.0.0.0:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2024-01-07 15:23:18,915 | INFO  | Could not accept connection during shutdown  : null (null) | org.apache.activemq.broker.TransportConnector | ActiveMQ Transport Server Thread Handler: amqp://0.0.0.0:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+2024-01-07 15:23:18,915 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2024-01-07 15:23:18,916 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2024-01-07 15:23:18,928 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2024-01-07 15:23:18,930 | INFO  | Connector vm://localhost stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2024-01-07 15:23:18,932 | INFO  | PListStore:[C:\Users\ADMIN\OneDrive\Desktop\BookingSystem\apache-activemq-6.0.1-bin\apache-activemq-6.0.1\bin\win64\..\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2024-01-07 15:23:18,932 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2024-01-07 15:23:18,932 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2024-01-07 15:23:18,933 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2024-01-07 15:23:18,940 | INFO  | Apache ActiveMQ 6.0.1 (localhost, ID:anhlht-53276-1704612922242-0:1) uptime 47 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2024-01-07 15:23:18,940 | INFO  | Apache ActiveMQ 6.0.1 (localhost, ID:anhlht-53276-1704612922242-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook

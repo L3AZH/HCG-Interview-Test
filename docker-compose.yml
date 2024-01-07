@@ -1,0 +1,55 @@
+version: "3.3"
+services:
+  mysqldb:
+    image: mysql:8
+    environment:
+      - MYSQL_ROOT_PASSWORD=1234
+      - MYSQL_TCP_PORT=4407
+    ports:
+      - "4407:4407"
+    command: --default-authentication-plugin=mysql_native_password
+    volumes:
+      - ./CreateTable.sql:/docker-entrypoint-initdb.d/CreateTable.sql
+    networks:
+      - booking-sys
+  activemq:
+    image: apache/activemq-artemis:latest-alpine
+    ports:
+      - "61616:61616"
+      - "8161:8161"
+    networks:
+      - booking-sys
+  inventory-service:
+    depends_on:
+      - mysqldb
+      - activemq
+    build:
+      context: ./hcg-interview-services-inventory/hcg-interview-services-inventory/hcg-interview-services-inventory
+      dockerfile: Dockerfile
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:mysql://mysqldb:4407/bookingsystemdb?createDatabaseIfNotExists=true&useSSL=false&useUnicode=true&characterEncoding=utf8&useLegacyDatetimeCode=false&allowPublicKeyRetrieval=true
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=1234
+    ports:
+      - "9090:9090"
+    networks:
+      - booking-sys
+  booking-service:
+    depends_on:
+      - mysqldb
+      - activemq
+    build:
+      context: ./hcg-interview-services-booking/hcg-interview-services-booking/hcg-interview-services-booking
+      dockerfile: Dockerfile
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:mysql://mysqldb:4407/bookingsystemdb?createDatabaseIfNotExists=true&useSSL=false&useUnicode=true&characterEncoding=utf8&useLegacyDatetimeCode=false&allowPublicKeyRetrieval=true
+      - SPRING_DATASOURCE_USERNAME=root
+      - SPRING_DATASOURCE_PASSWORD=1234
+    ports:
+      - "9091:9091"
+    networks:
+      - booking-sys
+
+networks:
+  booking-sys:
+    driver: bridge

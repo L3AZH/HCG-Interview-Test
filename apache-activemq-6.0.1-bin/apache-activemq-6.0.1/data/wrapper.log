@@ -1,0 +1,47 @@
+STATUS | wrapper  | 2024/01/07 14:35:18 | --> Wrapper Started as Console
+STATUS | wrapper  | 2024/01/07 14:35:19 | Launching a JVM...
+INFO   | jvm 1    | 2024/01/07 14:35:19 | NOTE: Picked up JDK_JAVA_OPTIONS: --add-reads=java.xml=java.logging --add-opens java.base/java.security=ALL-UNNAMED --add-opens java.base/java.net=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.util.concurrent=ALL-UNNAMED --add-opens java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens java.naming/javax.naming.spi=ALL-UNNAMED --add-opens java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED
+INFO   | jvm 1    | 2024/01/07 14:35:19 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2024/01/07 14:35:19 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2024/01/07 14:35:19 | 
+INFO   | jvm 1    | 2024/01/07 14:35:19 | Java Runtime: Oracle Corporation 17.0.4.1 C:\Program Files\Java\jdk-17.0.4.1
+INFO   | jvm 1    | 2024/01/07 14:35:19 |   Heap sizes: current=1048576k  free=1037312k  max=1048576k
+INFO   | jvm 1    | 2024/01/07 14:35:19 |     JVM args: --add-reads=java.xml=java.logging --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.naming/javax.naming.spi=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport.tcp=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.http=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.https=ALL-UNNAMED --add-exports=java.base/sun.net.www.protocol.jar=ALL-UNNAMED --add-exports=jdk.xml.dom/org.w3c.dom.html=ALL-UNNAMED --add-exports=jdk.naming.rmi/com.sun.jndi.url.rmi=ALL-UNNAMED -Dactivemq.home=../.. -Dactivemq.base=../.. -Djavax.net.ssl.keyStorePassword=password -Djavax.net.ssl.trustStorePassword=password -Djavax.net.ssl.keyStore=../../conf/broker.ks -Djavax.net.ssl.trustStore=../../conf/broker.ts -Dcom.sun.management.jmxremote -Dorg.apache.activemq.UseDedicatedTaskRunner=false -Djava.util.logging.config.file=logging.properties -Dactivemq.conf=../../conf -Dactivemq.data=../../data -Djava.security.auth.login.config=../../conf/login.config -Djolokia.conf=file:..\\..\\conf\\jolokia-access.xml -Xms1024m -Xmx1024m -Djava.library.path=../../bin/win64 -Dwrapper.key=COkQyVTnGiBkr_vt -Dwrapper.port=32000 -Dwrapper.jvm.port.min=31000 -Dwrapper.jvm.port.max=31999 -Dwrapper.pid=42468 -Dwrapper.version=3.2.3 -Dwrapper.native_library=wrapper -Dwrapper.cpu.timeout=10 -Dwrapper.jvmid=1
+INFO   | jvm 1    | 2024/01/07 14:35:19 | Extensions classpath:
+INFO   | jvm 1    | 2024/01/07 14:35:19 |   [..\..\lib,..\..\lib\camel,..\..\lib\optional,..\..\lib\web,..\..\lib\extra]
+INFO   | jvm 1    | 2024/01/07 14:35:19 | ACTIVEMQ_HOME: ..\..
+INFO   | jvm 1    | 2024/01/07 14:35:19 | ACTIVEMQ_BASE: ..\..
+INFO   | jvm 1    | 2024/01/07 14:35:19 | ACTIVEMQ_CONF: ..\..\conf
+INFO   | jvm 1    | 2024/01/07 14:35:19 | ACTIVEMQ_DATA: ..\..\data
+INFO   | jvm 1    | 2024/01/07 14:35:20 | Loading message broker from: xbean:activemq.xml
+INFO   | jvm 1    | 2024/01/07 14:35:21 |  INFO | Using Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\ADMIN\OneDrive\Desktop\BookingSystem\apache-activemq-6.0.1-bin\apache-activemq-6.0.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2024/01/07 14:35:21 |  INFO | Starting Persistence Adapter: KahaDBPersistenceAdapter[C:\Users\ADMIN\OneDrive\Desktop\BookingSystem\apache-activemq-6.0.1-bin\apache-activemq-6.0.1\bin\win64\..\..\data\kahadb]
+INFO   | jvm 1    | 2024/01/07 14:35:22 |  INFO | Starting KahaDBStore
+INFO   | jvm 1    | 2024/01/07 14:35:22 |  INFO | Opening MessageDatabase
+INFO   | jvm 1    | 2024/01/07 14:35:22 |  INFO | Starting Temp Data Store
+INFO   | jvm 1    | 2024/01/07 14:35:22 |  INFO | PListStore:[C:\Users\ADMIN\OneDrive\Desktop\BookingSystem\apache-activemq-6.0.1-bin\apache-activemq-6.0.1\bin\win64\..\..\data\localhost\tmp_storage] started
+INFO   | jvm 1    | 2024/01/07 14:35:22 |  INFO | Starting Job Scheduler Store
+INFO   | jvm 1    | 2024/01/07 14:35:22 |  INFO | Persistence Adapter successfully started
+INFO   | jvm 1    | 2024/01/07 14:35:22 |  INFO | Apache ActiveMQ 6.0.1 (localhost, ID:anhlht-53276-1704612922242-0:1) is starting
+INFO   | jvm 1    | 2024/01/07 14:35:22 |  INFO | Listening for connections at: tcp://anhlht:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/01/07 14:35:22 |  INFO | Connector openwire started
+INFO   | jvm 1    | 2024/01/07 14:35:22 |  INFO | Listening for connections at: amqp://anhlht:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/01/07 14:35:22 |  INFO | Connector amqp started
+INFO   | jvm 1    | 2024/01/07 14:35:22 |  INFO | Listening for connections at: stomp://anhlht:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/01/07 14:35:22 |  INFO | Connector stomp started
+INFO   | jvm 1    | 2024/01/07 14:35:22 |  INFO | Listening for connections at: mqtt://anhlht:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/01/07 14:35:22 |  INFO | Connector mqtt started
+INFO   | jvm 1    | 2024/01/07 14:35:22 |  INFO | Starting Jetty server
+INFO   | jvm 1    | 2024/01/07 14:35:22 |  INFO | Creating Jetty connector
+INFO   | jvm 1    | 2024/01/07 14:35:22 |  WARN | ServletContext@o.e.j.s.ServletContextHandler@39d5ae55{/,null,STARTING} has uncovered HTTP methods for the following paths: [/]
+INFO   | jvm 1    | 2024/01/07 14:35:22 |  INFO | Listening for connections at ws://anhlht:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600
+INFO   | jvm 1    | 2024/01/07 14:35:22 |  INFO | Connector ws started
+INFO   | jvm 1    | 2024/01/07 14:35:22 |  INFO | Apache ActiveMQ 6.0.1 (localhost, ID:anhlht-53276-1704612922242-0:1) started
+INFO   | jvm 1    | 2024/01/07 14:35:22 |  INFO | For help or more information please see: http://activemq.apache.org
+INFO   | jvm 1    | 2024/01/07 14:35:23 |  INFO | ActiveMQ WebConsole available at http://127.0.0.1:8161/
+INFO   | jvm 1    | 2024/01/07 14:35:23 |  INFO | ActiveMQ Jolokia REST API available at http://127.0.0.1:8161/api/jolokia/
+INFO   | jvm 1    | 2024/01/07 15:17:23 |  INFO | Connector vm://localhost started
+STATUS | wrapper  | 2024/01/07 15:23:17 | CTRL-C trapped.  Shutting down.
+STATUS | wrapper  | 2024/01/07 15:23:17 | CTRL-C trapped.  Forcing immediate shutdown.
+ERROR  | wrapper  | 2024/01/07 15:23:17 | JVM did not exit on request, terminated
+STATUS | wrapper  | 2024/01/07 15:23:17 | <-- Wrapper Stopped
